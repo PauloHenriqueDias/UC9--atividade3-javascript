@@ -158,7 +158,7 @@ function gerar_json(form){
         document.write("<h2> Retorno em JSON </h2>");
         document.write(JSON.stringify(dados, null, '<br>'));
     }else{
-        alert("Preencha todos os campos de forma correta, não deixe nenhum campo sem preencher!");
+        alert("Preencha todos os campos de forma correta, Verificar celular se inicia com o digito '9'");
         document.form.focus();
     }   
 
